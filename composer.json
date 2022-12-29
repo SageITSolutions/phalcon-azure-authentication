@@ -1,0 +1,44 @@
+{
+  "name": "sageit/phalcon-azure-authentication",
+  "description": "Sage IT Component for Phalcon - Annotations Parser for annotation routes",
+  "keywords": [
+    "framework",
+    "phalcon",
+    "micro",
+    "authentication",
+    "azure"
+  ],
+  "authors": [
+    {
+      "name": "Daniel S. Davis",
+      "email": "daniel.davis@sageitsolutions.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/SageITSolutions/phalcon-azure-authentication/issues",
+    "source": "https://github.com/SageITSolutions/phalcon-azure-authentication",
+    "forum": "https://forum.phalconphp.com/",
+    "docs": "https://docs.phalconphp.com/",
+    "irc": "irc://irc.freenode.org/phalconphp",
+    "rss": "https://blog.phalconphp.com/rss",
+    "email": "daniel.davis@sageitsolutions.net"
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "ext-phalcon": "4.* || 5.*"
+  },
+  "require-dev": {
+    "codeception/verify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phalcon\\Encryption\\Security\\Azure\\": "Phalcon/Encryption/Security/Azure"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phalcon\\Encryption\\Security\\Azure\\": "PPhalcon/Encryption/Security/Azure"
+    }
+  }
+}
